@@ -1,0 +1,18 @@
+/* Navigation and labels use Mono; headings use Sentient; body copy uses Inter. */
+.hero nav,.hero nav *,.hero .disciplines,.hero .disciplines *,.hero .brand,.hero .brand *{font-family:'Space Mono','PingFang SC','Microsoft YaHei',monospace;font-weight:400}
+.portfolio .motion-project-title,.all-projects-grid .motion-project-title,.related-project span{color:#fff;font-size:22px;line-height:1.45;letter-spacing:-.035em;font-weight:400}
+.related-project:hover,.related-project:hover span{color:#fff}.related-project i{display:none}
+.facts-grid .fact-card{height:auto;min-height:490px}.fact-bottom p{font-size:14px;line-height:1.7}.experience-timeline{margin:26px 0}.timeline-entry{min-height:106px}.company-products li{font-size:14px}.company-identity small{font-size:14px}.company-identity{gap:10px}.ai-capability ul{font-size:14px}
+.section-heading>p,.story-heading>p,.service-card>p{font-size:16px;line-height:1.7}.service-card{min-height:330px}.project-meta{align-items:start;gap:20px}.project-slot-index{padding-top:7px}
+.avatar-contact{width:144px;height:144px;background:transparent;box-shadow:none;right:24px;bottom:24px}.avatar-contact:hover{box-shadow:none}.avatar-contact .avatar-viewport{position:absolute;left:18px;top:18px;width:108px;height:108px;background:#242424;box-shadow:0 6px 25px #0006}.avatar-caption{display:none}
+.contact-ring{position:absolute;inset:0;width:144px;height:144px;overflow:visible;pointer-events:none;animation:contact-orbit 36s linear infinite}.contact-ring text{fill:#e8e8e8;font-family:'Space Mono',monospace;font-size:14px;font-weight:400}.avatar-contact:hover .contact-ring{animation-play-state:paused}
+@keyframes contact-orbit{to{transform:rotate(360deg)}}
+@media(max-width:900px){.facts-grid .fact-card{min-height:560px}.timeline-entry{min-height:125px}}
+@media(max-width:600px){.facts-grid .fact-card{min-height:470px}.timeline-entry{min-height:106px}.portfolio .motion-project-title,.related-project span{font-size:20px}.avatar-contact{right:16px;bottom:16px}}
+@media(prefers-reduced-motion:reduce){.contact-ring{animation:none}}
+
+.all-projects-dialog,.contact-dialog{background:#171717;border-color:#ffffff24}
+
+@font-face{font-family:Inter;src:local('Inter Regular'),local('Inter'),url('./assets/fonts/Inter-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+p,.portfolio p,.contact-dialog p,.all-projects-dialog p{font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400}
+.hero .statement,.hero .statement em,.portfolio .motion-project-title,.all-projects-grid .motion-project-title,.related-project span,.product-label{font-family:Sentient,serif;font-weight:400}

@@ -1,0 +1,9 @@
+.related-projects{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x proximity;scroll-padding-inline:5vw;padding:48px 5vw 40px;border-top:1px solid #b4cf9a33;background:#080b08;scrollbar-width:thin;scrollbar-color:#a1f00055 transparent;overscroll-behavior-inline:contain}
+.related-project{flex:0 0 clamp(240px,28vw,420px);min-width:0;scroll-snap-align:start;color:#edf2e7;text-decoration:none;font-family:"Space Mono",'PingFang SC','Microsoft YaHei',monospace}
+.related-project img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:4px;background:#11180d;transition:filter .25s}
+.related-project span{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:max(14px,11px);line-height:1.6;padding:14px 0 0}
+.related-project i{font-style:normal;color:#a1f000;transition:transform .25s}
+.related-project:hover{color:#a1f000}.related-project:hover i{transform:translate(3px,-3px)}.related-project:hover img{filter:brightness(1.1)}
+.related-project:focus-visible{outline:2px solid #a1f000;outline-offset:5px}
+@media(max-width:700px){.related-projects{gap:16px;padding-block:32px}.related-project{flex-basis:70vw}}
+@media(prefers-reduced-motion:reduce){.related-project img,.related-project i{transition:none}}

@@ -1,0 +1,13 @@
+@font-face{font-family:Sentient;src:url('./assets/fonts/Sentient-Regular.otf') format('opentype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:Sentient;src:url('./assets/fonts/Sentient-Medium.otf') format('opentype');font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:Sentient;src:url('./assets/fonts/Sentient-Italic.otf') format('opentype');font-style:italic;font-weight:400;font-display:swap}
+h1,h2,h3,h4,h5,h6,.portfolio :is(h1,h2,h3,h4,h5,h6),.all-projects-dialog h2,.contact-dialog h2,.portfolio .skill-stack,.portfolio .motion-project-title,.portfolio .project-image-title,.portfolio .placeholder-title,.related-project span{font-family:Sentient,'PingFang SC','Microsoft YaHei',serif;font-weight:400;letter-spacing:-.025em}
+.portfolio .ai-capability h3 em,.hero .statement,.hero .statement em{font-family:Sentient,serif;font-weight:400}
+.hero h1,.hero .statement{font-size:max(14px,6.2cqw);line-height:1.14;letter-spacing:-.035em}
+.hero .statement em{font-style:italic}
+.portfolio .section-title,.portfolio .footer-title h2,.portfolio .work-outro h3,.portfolio .motion-heading h2{letter-spacing:-.025em}
+.portfolio .motion-project-title{font-size:max(14px,16px)}.related-project span{font-size:max(14px,17px)}
+.monochrome-version .hero-art-proxy{filter:grayscale(1) brightness(.14)}
+@media(max-width:600px){.hero h1,.hero .statement{font-size:max(14px,6.8cqw)}.portfolio .motion-project-title{font-size:max(14px,15px)}}
+
+.portfolio :is(h1,h2,h3,h4,h5,h6) *,.portfolio .skill-stack *,.portfolio .project-image-title *,.portfolio .placeholder-title *,.all-projects-dialog h2 *,.contact-dialog h2 *{font-family:Sentient,serif}

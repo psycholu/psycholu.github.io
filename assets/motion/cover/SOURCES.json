@@ -1,0 +1,13 @@
+{
+  "source": "User-provided cover.mp4",
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 20.02,
+  "web_dimensions": [
+    1440,
+    810
+  ],
+  "playback": "muted inline loop; no controls; pauses offscreen"
+}

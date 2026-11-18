@@ -1,0 +1,40 @@
+/* Local refinements: card entrances and contact controls. */
+.work-section:not(.work-empty) .work-intro .more-work,
+.work-section.work-empty .work-intro .more-work{margin-left:0;align-self:flex-start}
+.fact-enter .fact-step{opacity:0;transform:translateY(14px);filter:blur(2px)}
+.fact-enter.is-entered .fact-step{animation:fact-content-in .8s cubic-bezier(.2,.7,.25,1) var(--fact-step-delay,0ms) both}
+.fact-enter .skill-stack>span{transform:translateY(25px)}
+.fact-enter.is-entered .skill-stack>span{animation-name:fact-word-in}
+.fact-enter .experience-timeline:before{transform:scaleY(0);transform-origin:top;transition:transform 1.2s cubic-bezier(.2,.7,.25,1) .3s}
+.fact-enter.is-entered .experience-timeline:before{transform:scaleY(1)}
+.fact-enter.is-entered .timeline-entry:before{animation:fact-dot-in .9s ease var(--fact-step-delay,0ms) both}
+@keyframes fact-content-in{from{opacity:0;transform:translateY(14px);filter:blur(2px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes fact-word-in{from{opacity:0;transform:translateY(25px) rotate(1deg);filter:blur(2px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes fact-dot-in{0%{box-shadow:0 0 0 0 #a1ff0030}45%{box-shadow:0 0 0 7px #a1ff0018}100%{box-shadow:0 0 0 0 #a1ff0000}}
+.footer-contact-other dd{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.contact-copy,.contact-qr-trigger{font:inherit;font-size:12px;background:transparent;color:inherit;border:1px solid #aab49c55;border-radius:99px;padding:7px 12px;cursor:pointer;white-space:nowrap;transition:background .2s,border-color .2s}
+.contact-copy:hover,.contact-qr-trigger:hover{background:#a1ff0014;border-color:#a1ff00}
+.contact-copy:focus-visible,.contact-qr-trigger:focus-visible,.contact-qr-close:focus-visible{outline:2px solid #a1ff00;outline-offset:4px}
+.contact-qr-dialog{box-sizing:border-box;width:min(420px,calc(100vw - 32px));max-height:92svh;overflow:auto;padding:28px;background:#171717;color:#edf1e5;border:1px solid #ffffff24;border-radius:18px;text-align:center}
+.contact-qr-dialog::backdrop{background:#000a;backdrop-filter:blur(8px)}
+.contact-qr-dialog h2{font-family:Sentient,Georgia,serif;font-size:32px;margin:12px 0 20px}
+.contact-qr-dialog .section-kicker{font-size:11px;letter-spacing:.1em;margin:4px 20px;color:#b5c3a5}
+.contact-qr-dialog img{display:block;width:100%;height:auto;max-height:62svh;object-fit:contain;margin:0 auto 20px}
+.contact-qr-dialog a{color:#edf1e5;font-size:15px;text-underline-offset:5px}
+.contact-qr-close{position:absolute;right:12px;top:10px;border:0;background:transparent;color:inherit;font-size:25px;cursor:pointer;padding:4px 10px}
+.contact-copy-status{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(prefers-reduced-motion:reduce){.fact-enter .fact-step{opacity:1;transform:none;filter:none;animation:none!important}.fact-enter .experience-timeline:before{transform:none;transition:none}.fact-enter.is-entered .timeline-entry:before{animation:none}}
+@media(max-width:600px){.contact-row{gap:8px}.contact-qr-trigger{padding:6px 9px;font-size:11px}}
+
+/* Footer contact: one aligned list, one label size, one value size */
+.footer-contact .contact-list{margin:0;max-width:720px;display:grid;gap:4px}
+.footer-contact .contact-list>div{display:grid;grid-template-columns:140px minmax(0,1fr);align-items:center;gap:24px;min-height:44px;border-top:1px solid #ffffff14;padding:6px 0}
+.footer-contact .contact-list>div:last-child{border-bottom:1px solid #ffffff14}
+.footer-contact .contact-list dt{margin:0;font:400 13px/1.4 'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:#8f9787}
+.footer-contact .contact-list dd{margin:0;display:flex;align-items:center;flex-wrap:wrap;gap:12px 24px;color:#edf0e8}
+.footer-contact .contact-list dd>a,.footer-contact .contact-list dd>span{font:400 18px/1.4 'Space Mono',monospace;letter-spacing:0;color:#edf0e8;overflow-wrap:anywhere}
+.footer-contact .contact-list .contact-copy,.footer-contact .contact-list .contact-qr-trigger{font:400 12px/1 'Space Mono',monospace;padding:8px 14px;margin-left:-8px}
+@media(max-width:700px){.footer-contact .contact-list>div{grid-template-columns:minmax(0,1fr);gap:6px;padding:12px 0}.footer-contact .contact-list dd>a,.footer-contact .contact-list dd>span{font-size:16px}}
+
+/* Five-tab hero nav: keep all labels on one line on phones */
+@media(max-width:480px){.monochrome-version .hero nav{padding:0 12px;gap:6px;font-size:11px;letter-spacing:-.03em}}

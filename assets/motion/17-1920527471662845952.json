@@ -1,0 +1,14 @@
+{
+  "type": "video",
+  "src": "./assets/motion/17-1920527471662845952.mp4",
+  "poster": "./assets/motion/17-1920527471662845952.webp",
+  "width": 960,
+  "height": 540,
+  "source": "https://x.com/GravityChain/status/1920527618845085978",
+  "title": "",
+  "description": "",
+  "label": "Gravity - Gravity L1 Parallel EVM. Powered by Gigagas.",
+  "duration": 12.0,
+  "order": 17,
+  "source_video_id": "1920527471662845952"
+}

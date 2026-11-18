@@ -1,0 +1,69 @@
+{
+  "note": "Web previews retain the formation sequence, starting one quarter into the full-length source. Posters match the exact first frame. Full-length sources and iCloud originals remain unchanged.",
+  "videos": [
+    {
+      "file": "motion-01.mp4",
+      "original_duration": 16.0,
+      "start_seconds": 4.0,
+      "preview_duration": 12.0,
+      "width": 960,
+      "height": 960
+    },
+    {
+      "file": "motion-02.mp4",
+      "original_duration": 16.0,
+      "start_seconds": 4.0,
+      "preview_duration": 12.0,
+      "width": 960,
+      "height": 960
+    },
+    {
+      "file": "motion-03.mp4",
+      "original_duration": 16.0,
+      "start_seconds": 4.0,
+      "preview_duration": 12.0,
+      "width": 960,
+      "height": 960
+    },
+    {
+      "file": "motion-04.mp4",
+      "original_duration": 16.0,
+      "start_seconds": 4.0,
+      "preview_duration": 12.0,
+      "width": 960,
+      "height": 960
+    },
+    {
+      "file": "motion-05.mp4",
+      "original_duration": 16.0,
+      "start_seconds": 4.0,
+      "preview_duration": 12.0,
+      "width": 960,
+      "height": 960
+    },
+    {
+      "file": "motion-06.mp4",
+      "original_duration": 16.0,
+      "start_seconds": 4.0,
+      "preview_duration": 12.0,
+      "width": 960,
+      "height": 960
+    },
+    {
+      "file": "motion-07.mp4",
+      "original_duration": 16.0,
+      "start_seconds": 4.0,
+      "preview_duration": 12.0,
+      "width": 960,
+      "height": 960
+    },
+    {
+      "file": "motion-08.mp4",
+      "original_duration": 14.0,
+      "start_seconds": 3.5,
+      "preview_duration": 10.5,
+      "width": 960,
+      "height": 960
+    }
+  ]
+}

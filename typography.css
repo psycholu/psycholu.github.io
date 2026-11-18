@@ -1,0 +1,9 @@
+@font-face{font-family:"Space Mono";src:url('./assets/fonts/SpaceMono-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Space Mono";src:url('./assets/fonts/SpaceMono-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+.portfolio,.portfolio *,.all-projects-dialog,.all-projects-dialog *,.contact-dialog,.contact-dialog *,.avatar-caption{font-family:"Space Mono",'PingFang SC','Microsoft YaHei',monospace}
+.portfolio .section-title,.portfolio .footer-title h2,.portfolio .work-outro h3,.portfolio .motion-heading h2{letter-spacing:-.055em;font-weight:400}
+.portfolio .card-kicker,.portfolio .section-kicker{letter-spacing:.025em}
+
+.motion-project-title{font-size:max(14px,11px);line-height:1.5;color:var(--lime)}.project-meta:has(.motion-project-title){align-items:start;flex-direction:row}
+
+.project-cover.motion-collection-cover{object-fit:cover;background:#050505;pointer-events:none}

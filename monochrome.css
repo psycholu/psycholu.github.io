@@ -1,0 +1,176 @@
+/* Canonical neutral hero surface. */
+.monochrome-version .hero{background:#050505;color:#f0f0f2;color-scheme:dark;--purple:#ececec}
+.monochrome-version .hero:before{display:none}
+.monochrome-version .hero .brand{color:#f0f0f2}
+.monochrome-version .hero .brand-symbol{background:linear-gradient(145deg,#d2d2d8,#73757c 48%,#131317);box-shadow:inset 0 0 0 1px #ffffff25}
+.monochrome-version .hero nav{background:#111113;border:1px solid #ffffff24;color:#dedee4}
+.monochrome-version .hero nav a:hover{color:#fff}
+.monochrome-version .hero .statement em{color:#f4f4f1}
+.monochrome-version .hero .disciplines li{background:#111113;border:1px solid #ffffff30;color:#b9b9c1}
+.monochrome-version .hero .poster{filter:grayscale(1) brightness(.14)}
+.monochrome-version .hero .pause{background:#19191d;color:#e6e6ef;border:1px solid #ffffff25}
+.monochrome-version #loading{bottom:9%;color:#888890}
+.monochrome-version .hero #error{color:#acacb5}
+.monochrome-version .hero-art-proxy{background-color:#050505;background-size:100% 100%;background-repeat:no-repeat}
+.monochrome-version .avatar-viewport,.monochrome-version .contact-portrait{background:#101010}
+
+/* A dedicated left portrait column keeps the scroll path clear of the copy. */
+.monochrome-version .hero{background:#050505;min-height:640px;--purple:#ececec}
+.monochrome-version .hero-sculpture-slot{position:absolute;left:0;top:0;width:44%;height:100%;z-index:1;pointer-events:none}
+.monochrome-version .hero .intro{position:absolute;inset:22% 5% 13% 45%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:32px;text-align:center;pointer-events:none}
+.monochrome-version .hero h1{position:static;margin:0;font-size:clamp(40px,5.2cqw,92px);line-height:1.08;white-space:normal;transform:none;text-align:center;color:#f0f0ed;text-shadow:none}
+.monochrome-version .hero .statement{position:static;margin:0;font-size:clamp(24px,3.1cqw,52px);line-height:1.16;white-space:normal;transform:none;text-align:center;color:#ddd;text-shadow:none}
+.monochrome-version .hero .statement em{color:#f4f4f1}
+.monochrome-version .hero .disciplines{position:static;transform:none;margin:6px 0 0;justify-content:center;gap:10px;width:100%;max-width:100%;flex-wrap:wrap;pointer-events:auto}
+.monochrome-version .hero .disciplines li,.monochrome-version .hero .disciplines li:first-child{flex:0 0 auto;border-radius:30px;background:#0c0c0c99;border:1px solid #ffffff20;color:#b9b9b9;font-size:12px;padding:10px 16px;text-align:center}
+.monochrome-version .hero .poster{display:none}
+.monochrome-version .hero canvas,.monochrome-version .hero .still{filter:grayscale(1)}
+.monochrome-version #loading{left:0;right:0;bottom:11%;text-align:center;font-size:9px;letter-spacing:.08em}
+.monochrome-version .hero #error{left:10%;right:10%;max-width:none;text-align:center}
+.monochrome-version .avatar-contact{left:24px;right:auto}
+@media(max-width:700px){
+ .monochrome-version .hero{min-height:660px}
+ .monochrome-version .hero-sculpture-slot{width:40%}
+ .monochrome-version .hero .intro{inset:21% 5% 13% 42%;gap:24px}
+ .monochrome-version .hero h1{font-size:clamp(28px,6.8cqw,44px)}
+ .monochrome-version .hero .statement{font-size:clamp(20px,4.6cqw,30px)}
+ .monochrome-version .hero .disciplines{gap:8px}
+ .monochrome-version .hero .disciplines li{font-size:10px;padding:8px 10px}
+ .monochrome-version .avatar-contact{left:16px;right:auto;width:112px;height:112px}
+ .monochrome-version .avatar-contact .avatar-viewport{left:14px;top:14px;width:84px;height:84px}
+ .monochrome-version .contact-ring{width:112px;height:112px}
+}
+
+/* The same WebGL view moves from the hero into the contact button. */
+.monochrome-version .art.is-travelling{position:fixed;inset:auto;z-index:29;pointer-events:none;overflow:hidden;will-change:width,height,left,top}
+.monochrome-version .art.is-travelling canvas,.monochrome-version .art.is-travelling .still{filter:grayscale(1)}
+.monochrome-version .art.is-travelling .poster,.monochrome-version .art.is-travelling #loading,.monochrome-version .art.is-travelling #error{display:none}
+.monochrome-version .avatar-contact,.monochrome-version .avatar-contact.is-visible{transform:none;transition:none;opacity:var(--dock-ring,0)}
+.monochrome-version .avatar-contact .art .poster{display:none}
+
+/* Original lime / chrome palette, with the current continuous docking behavior. */
+.monochrome-version .hero{background:#a1f000;color:#090d04;color-scheme:light;--purple:#3c00ed}
+.monochrome-version .hero:before{display:block;content:'';position:absolute;inset:0;z-index:0;background:radial-gradient(circle,#3653001f 1px,transparent 1.5px) 8px 8px/25px 25px;pointer-events:none}
+.monochrome-version .hero .brand{color:#0b1404}
+.monochrome-version .hero .brand-symbol{background:linear-gradient(145deg,#dfff86,#6eaa0c 48%,#152800);box-shadow:inset 0 0 0 1px #18320035}
+.monochrome-version .hero nav{background:#0a0d07;border-color:#0a0d07;color:#f3f6ec}
+.monochrome-version .hero nav a:hover{color:#a1f000}
+.monochrome-version .hero h1{color:#0b1005}
+.monochrome-version .hero .statement{color:#12190a}
+.monochrome-version .hero .statement em{color:#3c00ed}
+.monochrome-version .hero .disciplines li,.monochrome-version .hero .disciplines li:first-child{color:#162405;background:#d9ff9b9c;border-color:#355d002e}
+.monochrome-version .hero canvas,.monochrome-version .hero .still,.monochrome-version .art.is-travelling canvas,.monochrome-version .art.is-travelling .still{filter:none}
+.monochrome-version .hero #loading,.monochrome-version .hero #error{color:#2f4b0a}
+.monochrome-version .avatar-viewport,.monochrome-version .contact-portrait{background:#a1f000}
+.monochrome-version .avatar-contact .contact-ring{scale:calc(1.12 - var(--dock-ring,0)*.12)}
+.monochrome-version .avatar-viewport:after{content:'';position:absolute;inset:0;border-radius:50%;border:1px solid #daffa066;pointer-events:none}
+@media(prefers-reduced-motion:reduce){.monochrome-version .avatar-contact .contact-ring{scale:1}}
+
+
+/* One green surface: full-width hero, rounded mask, then the contact circle. */
+.monochrome-version .hero{background:#080808}
+.monochrome-version .hero:before{display:none}
+.hero-green-surface{position:absolute;inset:0;z-index:0;background:#a1f000;pointer-events:none;overflow:hidden}
+.hero-green-surface:before{content:'';position:absolute;inset:0;background:radial-gradient(circle,#3653001f 1px,transparent 1.5px) 8px 8px/25px 25px;pointer-events:none}
+.hero-green-surface.is-morphing{position:fixed;inset:auto;z-index:29;will-change:width,height,left,top,clip-path}
+.hero-green-surface .art.is-masked{position:absolute;inset:auto;z-index:1;pointer-events:none}
+.hero-green-surface canvas,.hero-green-surface .still{filter:none}
+.hero-green-surface .poster,.hero-green-surface #loading,.hero-green-surface #error{display:none}
+.monochrome-version .avatar-contact:not(.is-docked) .avatar-viewport{background:transparent;box-shadow:none}
+.monochrome-version .avatar-contact:not(.is-docked) .avatar-viewport:after{opacity:0}
+.monochrome-version .avatar-contact.is-docked .avatar-viewport{background:#a1f000 radial-gradient(circle,#3653001f 1px,transparent 1.5px) 8px 8px/25px 25px}
+
+/* Copy reveals from below its own word masks, preserving the original wrapping. */
+.hero-word-mask{display:inline-block;overflow:clip;vertical-align:bottom;padding-bottom:.14em;margin-bottom:-.14em;line-height:inherit}
+.hero-word{display:inline-block;transform-origin:50% 100%;animation:hero-word-reveal .95s cubic-bezier(.22,.61,.36,1) both;animation-delay:calc(.12s + var(--word)*.075s)}
+.statement .hero-word{animation-delay:calc(.43s + var(--word)*.045s)}
+.hero .disciplines li{animation:hero-tag-reveal .65s cubic-bezier(.22,.61,.36,1) both;animation-delay:calc(.95s + var(--tag)*.065s)}
+@keyframes hero-word-reveal{from{transform:translate3d(0,115%,0) rotate(3deg)}to{transform:translate3d(0,0,0) rotate(0)}}
+@keyframes hero-tag-reveal{from{transform:translateY(15px);opacity:0}to{transform:none;opacity:1}}
+.monochrome-version .hero.hero-copy-layer{position:absolute;inset:0 auto auto 0;z-index:2;min-height:0;min-width:0;margin:0;padding:0;background:transparent!important;overflow:visible;isolation:auto;container-type:inline-size;transform-origin:0 0;pointer-events:none}
+.hero.hero-copy-layer:before,.hero.hero-copy-layer:after{display:none!important}
+.hero-copy-layer .hero-word,.hero-copy-layer .disciplines li{animation:none!important;transform:none!important;opacity:1!important}
+/* A soft cursor light and a small dot-field parallax stay inside the green area. */
+.hero-green-surface:before{background-position:calc(8px + var(--dot-x,0px)) calc(8px + var(--dot-y,0px));transition:background-position .5s cubic-bezier(.22,.61,.36,1)}
+.hero-green-surface:after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle 230px at var(--pointer-x,50%) var(--pointer-y,50%),#f5ffd88c, #dbff7038 46%,transparent 74%);opacity:0;transition:opacity .55s ease}
+.hero-green-surface.is-pointer-active:not(.is-morphing):after{opacity:1}
+.hero-green-surface.is-morphing:before{background-position:8px 8px;transition:none}
+@media(prefers-reduced-motion:reduce){.hero-word,.hero .disciplines li{animation:none!important;transform:none!important;opacity:1!important}.hero-green-surface:before,.hero-green-surface:after{transition:none}}
+
+/* Widen the render surface without changing the model scale or anchor. */
+.monochrome-version .hero .art,.monochrome-version .hero-sculpture-slot{overflow:visible}
+.monochrome-version .hero .art canvas,.monochrome-version .hero .art .still,.monochrome-version .art.is-travelling canvas,.monochrome-version .art.is-travelling .still{left:-100%;right:auto;width:300%;height:100%}
+.monochrome-version .art.is-travelling{overflow:visible}
+
+.editor #param-scale-number{grid-column:2;grid-row:1;width:84px;padding:5px 7px;background:#262d22;color:#dbe8c7;border:1px solid #ffffff30;border-radius:5px;font:inherit;text-align:right}
+
+/* Keep CSS and drawing-buffer proportions identical while reparenting on scroll. */
+.monochrome-version .art canvas,.monochrome-version .art .still{left:-100%;right:auto;width:300%;height:100%}
+
+/* Runtime canvas width covers the visible hero beyond the narrow portrait slot. */
+.monochrome-version .art canvas,.monochrome-version .art .still,.monochrome-version .hero .art canvas,.monochrome-version .hero .art .still,.monochrome-version .art.is-travelling canvas,.monochrome-version .art.is-travelling .still{left:0;right:auto;width:100%;height:100%}
+
+/* A precise pointer dot and tiny metal-like sparks; transforms and opacity only. */
+html.pointer-mark-active,html.pointer-mark-active *{cursor:none}
+html.pointer-mark-active input,html.pointer-mark-active textarea{cursor:text}
+.hero-pointer{position:fixed;inset:0;z-index:80;pointer-events:none;overflow:hidden;contain:strict}
+.hero-pointer-dot{position:absolute;left:-2.5px;top:-2.5px;width:5px;height:5px;border-radius:50%;background:#111b05;box-shadow:0 0 0 1px #f3ffd6b3;will-change:transform}
+.hero-pointer-spark{position:absolute;width:9px;height:9px;margin:-4.5px 0 0 -4.5px;transform-origin:center;will-change:transform,opacity}
+.hero-pointer-spark:before,.hero-pointer-spark:after{content:'';position:absolute;left:4px;top:0;width:1px;height:9px;border-radius:100%;background:#f8ffe7;box-shadow:0 0 1px #314900}
+.hero-pointer-spark:after{transform:rotate(90deg)}
+@media(prefers-reduced-motion:reduce){.hero-pointer-spark{display:none}}
+
+
+/* Approved composition: keep the editing surface out of the portfolio. */
+#panel-open{display:none!important}
+@media(max-width:1200px){
+ .monochrome-version .hero:not(.hero-copy-layer){container-type:inline-size;display:flex;flex-direction:column;height:auto;min-height:100svh;padding:clamp(155px,17vw,210px) 0 76px}
+ .monochrome-version .hero .intro{position:relative;inset:auto;order:1;flex:0 0 auto;width:88%;max-width:940px;margin:0 auto;gap:24px;text-align:center;align-items:center}
+ .monochrome-version .hero h1{font-size:clamp(40px,5.5cqw,68px);max-width:900px;line-height:1.08}
+ .monochrome-version .hero .statement{font-size:clamp(27px,3.6cqw,42px);max-width:820px;line-height:1.18}
+ .monochrome-version .hero .disciplines{justify-content:center;width:100%;max-width:850px;gap:10px;margin:0}
+ .monochrome-version .hero .disciplines li,.monochrome-version .hero .disciplines li:first-child{font-size:13px;padding:10px 16px}
+ .monochrome-version .hero-sculpture-slot{position:relative;inset:auto;order:2;flex:1 0 clamp(480px,55svh,860px);width:100%;height:clamp(480px,55svh,860px);margin:clamp(24px,4svh,60px) auto 0}
+ .monochrome-version .hero.hero-copy-layer{display:flex;flex-direction:column;padding:clamp(155px,17vw,210px) 0 76px}
+}
+@media(max-width:600px){
+ .monochrome-version .hero:not(.hero-copy-layer),.monochrome-version .hero.hero-copy-layer{padding-top:178px;padding-bottom:64px}
+ .monochrome-version .hero .brand{top:24px;left:6%;font-size:18px;gap:9px}
+ .monochrome-version .hero .brand-symbol{width:44px;height:44px}
+ .monochrome-version .hero nav{top:88px;left:6%;right:6%;height:54px;padding:0 18px;font-size:13px}
+ .monochrome-version .hero .intro{width:88%;gap:20px}
+ .monochrome-version .hero h1{font-size:clamp(36px,9cqw,52px)}
+ .monochrome-version .hero .statement{font-size:clamp(24px,6cqw,32px)}
+ .monochrome-version .hero .disciplines li,.monochrome-version .hero .disciplines li:first-child{font-size:11px;padding:9px 12px}
+ .monochrome-version .hero-sculpture-slot{flex-basis:clamp(380px,54svh,620px);height:clamp(380px,54svh,620px);margin-top:24px}
+}
+
+/* Keep the lime hero readable while modules are loading or unavailable. */
+.monochrome-version:not(.hero-initialized) .hero:not(.hero-copy-layer){background:#a1f000}
+
+/* Use the supplied logo artwork without the former gradient tile. */
+/* One shared radius for the logo tile and the navigation opposite it. */
+.monochrome-version .hero{--hero-header-radius:12px}
+.monochrome-version .hero .brand-symbol{object-fit:contain;background:none;box-shadow:none;border-radius:var(--hero-header-radius)}
+.monochrome-version .hero nav{border-radius:var(--hero-header-radius)}
+
+/* Hover feedback belongs only to the existing lime hero dot field. */
+.hero-dot-hover{position:absolute;inset:auto;left:0;top:0;width:552px;height:552px;z-index:0;pointer-events:none;opacity:0;transition:opacity .12s ease;will-change:transform,opacity}
+.hero-dot-hover.is-active{opacity:1}
+.hero-green-surface.is-morphing .hero-dot-hover{display:none}
+@media(prefers-reduced-motion:reduce){.hero-dot-hover{transition:none}}
+
+/* Approximately twice as many points per area; align the hover symbols to this grid. */
+.hero-green-surface:before{background-size:13px 13px}
+
+/* A real transparent first-frame portrait is visible before JavaScript/3D loads. */
+#art .hero-poster{display:block;position:absolute;inset:0;z-index:3;pointer-events:none;opacity:1;visibility:visible;transition:opacity .55s ease,visibility 0s}
+#art .hero-poster .poster{display:block;filter:none;opacity:1;position:absolute;top:var(--poster-top,0px);left:var(--poster-left,60.1%);width:auto;max-width:none;height:var(--poster-height,100%);object-fit:contain;transform:translateX(-26.444%);transition:none}
+#art #scene{z-index:2;opacity:0;transition:none}
+#art.ready #scene{opacity:1}
+#art.ready .hero-poster{opacity:0;visibility:hidden;transition:opacity .55s ease,visibility 0s linear .55s}
+#art #loading{display:none}
+@media(max-width:1200px){#art .hero-poster .poster{left:var(--poster-left,50%);transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){#art .hero-poster,#art #scene{transition:none!important}}
+
+.monochrome-version:not(.hero-initialized) .hero:not(.hero-copy-layer){background-image:radial-gradient(circle,#3653001f 1px,transparent 1.5px);background-size:13px 13px;background-position:8px 8px}

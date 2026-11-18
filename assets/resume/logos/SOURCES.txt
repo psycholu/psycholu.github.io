@@ -1,0 +1,17 @@
+Bullet Labs: https://bulletlabs.com/favicon/apple-touch-icon.png
+Reah: https://www.reah.com/icon.png?icon.2fgns-z-0si8m.png
+Alva: https://alva.ai/apple-touch-icon2.png
+Galxe and Gravity: official brand packs https://www.galxe.com/brand
+Tencent and LeTV: user-provided resume PDF.
+SAFEIS: user-provided brand asset.
+DraGo: original logo displayed from user portfolio case asset, 00-1.webp.
+
+Full Bullet Labs wordmark: SVG from https://bulletlabs.com/
+Full Reah logo: https://static.reah.com/production/site/logo/Reah_Logo_Black.svg
+Full Alva logo: original light-mode SVG from https://alva.ai/
+Full Galxe and Gravity logos: official black SVG lockups from https://www.galxe.com/brand
+SAFEIS full logo: existing user-provided safeis.png, displayed without cropping.
+
+2026-11-13 transparent replacements:
+Tencent: official transparent PNG https://www.tencent.com/wp-content/uploads/2022/12/01_Tencent_Standard-Logo.png ; SVG wrapper removes empty margins only.
+LeTV: original user-resume logo, white background removed with built-in image generation; shapes and colors retained. Original JPEG preserved.

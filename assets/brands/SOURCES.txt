@@ -1,0 +1,13 @@
+Tencent icon: https://www.tencent.net.cn/zh-cn/newsroom/media-resources/logos/
+Galxe icon: https://www.galxe.com/brand
+Web3 startup: generic inline network/cube icon.
+SAFEIS: user-provided 编组.svg
+Tencent wordmark: https://www.tencent.com/wp-content/uploads/2022/12/03_Tencent_English-logo_Reverse-type.png
+
+Bullet Labs mark: first two original symbol paths from https://bulletlabs.com/ inline SVG; white presentation.
+Reah app icon: https://www.reah.com/
+Alva app icon: https://alva.ai/
+Gravity: https://www.galxe.com/brand official pack; white display via CSS.
+SAFEIS original transparent user-provided SVG, white display via CSS.
+
+Tencent Sports product icon: official App Store listing https://apps.apple.com/cn/app/id570608623 (Apple image CDN); downloaded 2026-11-10.
